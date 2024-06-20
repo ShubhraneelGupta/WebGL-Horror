@@ -1,11 +1,11 @@
 import {useState} from 'react'
-import Cubes from './components/Cubes/'
+import SPlane from './components/SPlane/'
 
 
 const App = () => {
   const [input, setInput] = useState("Heading")
   return (
-    <Cubes/>
+    <SPlane/>
   )
 }
 
